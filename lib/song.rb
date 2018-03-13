@@ -42,7 +42,7 @@ class Song
 
   def self.new_from_filename(file)
     song = self.create
-    temp = file.split(/[" - "]/)
+    temp = file.split(/" - ")
     song.name = temp[1]
     song.artist_name = temp[0]
     song
