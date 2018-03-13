@@ -42,6 +42,7 @@ class Song
 
   def self.new_from_filename(file)
     song = self.create
+    temp = file.split(/[" - "][.mp3]/)
     song.name = 
     song.artist_name = 
   end
