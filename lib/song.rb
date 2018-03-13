@@ -45,6 +45,7 @@ class Song
     temp = file.split(/[" - "][.mp3]/)
     song.name = temp[1]
     song.artist_name = temp[0]
+    song
   end
 
 end
